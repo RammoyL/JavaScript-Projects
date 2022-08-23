@@ -8,6 +8,6 @@ function My_First_Function() {      //Defining a function and naming it
 
 function myFunction() {
     var sentence = "I am learning";
-    sentence += "a lot from this class!";
+    sentence += " a lot from this class!";
     document.getElementById("Conctenate").innerHTML = sentence;
 }
