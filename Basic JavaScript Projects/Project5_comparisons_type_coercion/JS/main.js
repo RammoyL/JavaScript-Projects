@@ -1,7 +1,9 @@
+document.write(typeof true);
+
 function my_Function() {
     document.getElementById("Test").innerHTML = 0 / 0;
-    document.getElementById("Test").innerHTML = isNaN('This is a string');
-    document.getElementById("Test").innerHTML = isNaN('007');
+    document.getElementById("Test01").innerHTML = isNaN('This is a string');
+    document.getElementById("Test02").innerHTML = isNaN('007');
 }
 
 document.write(2E310);
@@ -37,6 +39,6 @@ function not_Function() {
     document.getElementById("Not").innerHTML = !(11 > 9);
 }
 
-function not_Function() {
-    document.getElementById("Not").innerHTML = !(5 > 14);
+function notFunction() {
+    document.getElementById("Not01").innerHTML = !(5 > 14);
 }
