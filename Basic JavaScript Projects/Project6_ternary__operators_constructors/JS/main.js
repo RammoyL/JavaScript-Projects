@@ -15,3 +15,13 @@ function my_Function() {
     document.getElementById("New_and_This").innerHTML = "Charlies owns a " + Charlie.Phone_Color + "-colored " + Charlie.Phone_Make +
         " it is a " + Charlie.Phone_Model;
 }
+
+function counter_Function() {
+    document.getElementById("Nested").innerHTML = Count();
+    function Count() {
+        var start_point = 6;
+        function plus_one() { start_point += 1; }
+        plus_one();
+        return start_point;
+    }
+}
