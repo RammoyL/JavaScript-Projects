@@ -1,17 +1,17 @@
-function Call_Loop() {
+function Call_Loop() { //function that calls the loop
     var Digit = "";
-    var X = 1;
+    var X = 1; //calling variable X to equal 1
     while (X < 11) {
         Digit += "<br>" + X;
-        X++;
+        X++; //this part of the function increments X by 1
     }
     document.getElementById("Loop").innerHTML = Digit;
 }
 
-function length_Function() {
+function length_Function() { //string length function
     let text = "What is the length of this string?";
-    let length = text.length;
-    document.getElementById("string_length").innerHTML = length;
+    let length = text.length; //
+    document.getElementById("string_length").innerHTML = length; //this calls to return the length of the chosen string
 }
 
 var Instruments = ["Oboe", "Guitar", "Piano", "Drums", "Violin", "Saxophone", "Tuba"];
