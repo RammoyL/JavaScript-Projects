@@ -1,5 +1,5 @@
 # JavaScript-Projects
-This is a display of sample websites that I made using HTML & CSS.
+A few small projects I made using JavaScript.
 
 <br>
 
