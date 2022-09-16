@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/slideshowstyling.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div id="slideshow">
+            <div>
+                <img src="./images/cosmo1.png" height="500px" width="600px" alt="cosmos">
+            </div>
+            <div>
+                <img src="./images/cosmos.png" height="500px" width="600px" alt="galaxy">
+            </div>
+            <div>
+               Boundless Vastness of Space!
+            </div>
+        </div>
+
+        <script>$("#slideshow > div:gt(0)").hide();
+
+            setInterval(function () {
+                $('#slideshow > div:first')
+                    .fadeOut(1000)
+                    .next()
+                    .fadeIn(1000)
+                    .end()
+                    .appendTo('#slideshow');
+            }, 3000);
+        </script>
+    </body>
+</html>
